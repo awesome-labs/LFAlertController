@@ -1,5 +1,5 @@
-# LFAlertAction
-UIAlertAction extension with handler inside initialization
+# LFAlertController
+UIAlertController Swift extension with handler inside initialization :large_orange_diamond:
 
 ## How to install
 
