@@ -17,17 +17,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o1o-IN-WIS">
-                                <rect key="frame" x="257" y="117" width="86" height="30"/>
-                                <state key="normal" title="Show Action"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jh1-7R-qZ4">
+                                <rect key="frame" x="240.5" y="155" width="119" height="30"/>
+                                <state key="normal" title="Show Controller2"/>
                                 <connections>
-                                    <action selector="showAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="um6-4f-On9"/>
+                                    <action selector="showController2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zoh-a0-lHG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o1o-IN-WIS">
+                                <rect key="frame" x="241.5" y="117" width="117" height="30"/>
+                                <state key="normal" title="Show Controller1"/>
+                                <connections>
+                                    <action selector="showController1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y4Q-O7-0h1"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="o1o-IN-WIS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="97" id="6eE-Hn-HND"/>
+                            <constraint firstItem="jh1-7R-qZ4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aTI-4U-ysH"/>
+                            <constraint firstItem="jh1-7R-qZ4" firstAttribute="top" secondItem="o1o-IN-WIS" secondAttribute="bottom" constant="8" id="cno-MW-Lwy"/>
                             <constraint firstItem="o1o-IN-WIS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qka-gC-SK9"/>
                         </constraints>
                     </view>

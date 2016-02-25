@@ -12,30 +12,42 @@ class ViewController: UIViewController {
   
   @IBOutlet weak var imgv: UIImageView!
   
-  var controller: UIAlertController!
+  var controller1: UIAlertController!
+  var controller2: UIAlertController!
+
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    //Creating Actions
-    let action0 = UIAlertAction(title: "First Action", style: .Default, handler: nil)
-    let action1 = UIAlertAction(title: "Second Action", style: .Default, handler: nil)
+    //Creating Action with handler
+    let action0 = UIAlertAction(title: "First Action", style: .Default)
+    
+    //Creating Action without handler
+    let action1 = UIAlertAction(title: "Second Action", style: .Default)
     
     //Creating UIAlertController with handler
-    self.controller = UIAlertController(title: "hey", message: "ho", preferredStyle: .Alert,actions:[action0,action1]) { (action,index) -> () in
+    self.controller1 = UIAlertController(title: "Controller1", message: "This is Controller1", preferredStyle: .Alert,actions:[action0,action1]) { (action,index) -> () in
       
       //Printing index of Action
       print("\(index) - \(action.title!)")
     }
     
+    //Creating UIAlertController without handler
+    self.controller2 = UIAlertController(title: "Controller2", message: "This is Controller2", preferredStyle: .Alert,actions:[action0,action1])
+
+    
     //Adding an action outside the initializer
     let action2 = UIAlertAction(title: "Third Action", style: .Default, handler: nil)
-    controller.appendAction(action2)
+    controller1.appendAction(action2)
   }
   
-  @IBAction func showAction(sender: AnyObject) {
-    controller.show()
+  @IBAction func showController1(sender: AnyObject) {
+    controller1.show()
   }
+
   
+  @IBAction func showController2(sender: AnyObject) {
+    controller2.show()
+  }
 }
 
 
