@@ -29,7 +29,7 @@ self.controller = UIAlertController(title: "hey", message: "ho", preferredStyle:
 
 ##### Initialize UIAlertController without Handler
 ``` swift
-self.controller = UIAlertController(title: "hey", message: "ho", preferredStyle: .Default, actions: [action0,action1])
+self.controller = UIAlertController(title: "hey", message: "ho", preferredStyle: .Alert, actions: [action0,action1])
 ```
 
 ##### Show UIAlertController
