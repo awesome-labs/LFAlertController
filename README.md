@@ -1,7 +1,15 @@
 # LFAlertAction
 UIAlertAction extension with handler inside initialization
 
-#### Initialization
+## How to install
+
+#### Using the Swift file:
+Drag the **LFAlertController.swift** from */Sources* to your project
+
+#### Using CocoaPods:
+Not available yet!
+
+## How to Use
 
 ##### Create Actions
 ``` swift
