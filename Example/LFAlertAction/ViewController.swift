@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     
     //Creating Action with handler
-    let action0 = UIAlertAction(title: "First Action", style: .Default)
+    let action0 = UIAlertAction(title: "First Action", style: .Default,handler:nil)
     
     //Creating Action without handler
     let action1 = UIAlertAction(title: "Second Action", style: .Default)
