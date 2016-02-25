@@ -11,13 +11,19 @@ Not available yet!
 
 ## How to Use
 
-##### Create Actions
+#### Initializing UIAlertActions
+
+UIAlertAction with handler
 ``` swift
 let action0 = UIAlertAction(title: "First Action", style: .Default, handler: nil)
-let action1 = UIAlertAction(title: "Second Action", style: .Default, handler: nil)
+```
+UIAlertAction without handler
+``` swift
+let action1 = UIAlertAction(title: "Second Action", style: .Default)
 ```
 
-##### Initialize UIAlertController with Handler
+#### Initializing UIAlertController
+UIAlertController with Handler
 ``` swift
 self.controller = UIAlertController(title: "hey", message: "ho", preferredStyle: .Alert,actions:[action0,action1]) 
 { (action,index) -> () in
@@ -27,7 +33,7 @@ self.controller = UIAlertController(title: "hey", message: "ho", preferredStyle:
 }
 ```
 
-##### Initialize UIAlertController without Handler
+UIAlertController without Handler
 ``` swift
 self.controller = UIAlertController(title: "hey", message: "ho", preferredStyle: .Alert, actions: [action0,action1])
 ```
