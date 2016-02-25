@@ -12,7 +12,7 @@
 		C26899BF1C7EE63600A11FA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C26899BE1C7EE63600A11FA1 /* Assets.xcassets */; };
 		C26899C21C7EE63600A11FA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26899C01C7EE63600A11FA1 /* LaunchScreen.storyboard */; };
 		C26899CA1C7EE64700A11FA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26899C91C7EE64700A11FA1 /* Main.storyboard */; };
-		C275AD2F1C7EE7DF00D9BCB3 /* UIAlertControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C275AD2E1C7EE7DF00D9BCB3 /* UIAlertControllerExtensions.swift */; };
+		C275AD2F1C7EE7DF00D9BCB3 /* LFAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C275AD2E1C7EE7DF00D9BCB3 /* LFAlertController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		C26899C11C7EE63600A11FA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C26899C31C7EE63600A11FA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C26899C91C7EE64700A11FA1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		C275AD2E1C7EE7DF00D9BCB3 /* UIAlertControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIAlertControllerExtensions.swift; path = ../../Source/UIAlertControllerExtensions.swift; sourceTree = "<group>"; };
+		C275AD2E1C7EE7DF00D9BCB3 /* LFAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LFAlertController.swift; path = ../../Source/LFAlertController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 		C26899B61C7EE63600A11FA1 /* LFAlertAction */ = {
 			isa = PBXGroup;
 			children = (
-				C275AD2E1C7EE7DF00D9BCB3 /* UIAlertControllerExtensions.swift */,
+				C275AD2E1C7EE7DF00D9BCB3 /* LFAlertController.swift */,
 				C26899B71C7EE63600A11FA1 /* AppDelegate.swift */,
 				C26899B91C7EE63600A11FA1 /* ViewController.swift */,
 				C26899C91C7EE64700A11FA1 /* Main.storyboard */,
@@ -139,7 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C26899BA1C7EE63600A11FA1 /* ViewController.swift in Sources */,
-				C275AD2F1C7EE7DF00D9BCB3 /* UIAlertControllerExtensions.swift in Sources */,
+				C275AD2F1C7EE7DF00D9BCB3 /* LFAlertController.swift in Sources */,
 				C26899B81C7EE63600A11FA1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
