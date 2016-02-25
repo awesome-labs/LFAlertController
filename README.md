@@ -18,7 +18,7 @@ let action0 = UIAlertAction(title: "First Action", style: .Default, handler: nil
 let action1 = UIAlertAction(title: "Second Action", style: .Default, handler: nil)
 ```
 
-##### Initialize UIAlertController
+##### Initialize UIAlertController with Handler
 ``` swift
 //Creating UIAlertController with handler
 self.controller = UIAlertController(title: "hey", message: "ho", preferredStyle: .Alert,actions:[action0,action1]) 
@@ -27,6 +27,12 @@ self.controller = UIAlertController(title: "hey", message: "ho", preferredStyle:
   //Printing index of Action
   print("\(index) - \(action.title!)")
 }
+```
+
+##### Initialize UIAlertController without Handler
+``` swift
+//Creating UIAlertController with handler
+self.controller = UIAlertController(title: "hey", message: "ho", preferredStyle: .Default, actions: [action0,action1])
 ```
 
 ##### Show UIAlertController
