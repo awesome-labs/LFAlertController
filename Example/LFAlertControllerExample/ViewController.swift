@@ -10,11 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
   
-  @IBOutlet weak var imgv: UIImageView!
-  
   var controller1: UIAlertController!
   var controller2: UIAlertController!
-
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     
@@ -33,7 +31,7 @@ class ViewController: UIViewController {
     
     //Creating UIAlertController without handler
     self.controller2 = UIAlertController(title: "Controller2", message: "This is Controller2", preferredStyle: .Alert,actions:[action0,action1])
-
+    
     
     //Adding an action outside the initializer
     let action2 = UIAlertAction(title: "Third Action", style: .Default, handler: nil)
@@ -43,7 +41,7 @@ class ViewController: UIViewController {
   @IBAction func showController1(sender: AnyObject) {
     controller1.show()
   }
-
+  
   
   @IBAction func showController2(sender: AnyObject) {
     controller2.show()

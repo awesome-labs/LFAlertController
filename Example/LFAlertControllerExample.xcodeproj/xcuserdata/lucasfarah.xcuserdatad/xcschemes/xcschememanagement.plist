@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>LFAlertAction.xcscheme</key>
+		<key>LFAlertControllerExample.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>C26899B31C7EE63600A11FA1</key>
+		<key>C2C1A67B1C7F99C000B337AF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

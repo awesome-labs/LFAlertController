@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  LFAlertAction
+//  LFAlertControllerExample
 //
-//  Created by Lucas Farah on 2/24/16.
+//  Created by Lucas Farah on 2/25/16.
 //  Copyright © 2016 Lucas Farah. All rights reserved.
 //
 

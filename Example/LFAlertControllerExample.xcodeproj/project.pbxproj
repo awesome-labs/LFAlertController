@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C26899B81C7EE63600A11FA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26899B71C7EE63600A11FA1 /* AppDelegate.swift */; };
-		C26899BA1C7EE63600A11FA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26899B91C7EE63600A11FA1 /* ViewController.swift */; };
-		C26899BF1C7EE63600A11FA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C26899BE1C7EE63600A11FA1 /* Assets.xcassets */; };
-		C26899C21C7EE63600A11FA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26899C01C7EE63600A11FA1 /* LaunchScreen.storyboard */; };
-		C26899CA1C7EE64700A11FA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26899C91C7EE64700A11FA1 /* Main.storyboard */; };
-		C275AD2F1C7EE7DF00D9BCB3 /* LFAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C275AD2E1C7EE7DF00D9BCB3 /* LFAlertController.swift */; };
+		C2C1A6801C7F99C000B337AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C1A67F1C7F99C000B337AF /* AppDelegate.swift */; };
+		C2C1A6821C7F99C000B337AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C1A6811C7F99C000B337AF /* ViewController.swift */; };
+		C2C1A6871C7F99C000B337AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C1A6861C7F99C000B337AF /* Assets.xcassets */; };
+		C2C1A68A1C7F99C000B337AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C1A6881C7F99C000B337AF /* LaunchScreen.storyboard */; };
+		C2C1A6921C7F9A7C00B337AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C1A6911C7F9A7C00B337AF /* Main.storyboard */; };
+		C2C1A6941C7F9A8B00B337AF /* LFAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C1A6931C7F9A8B00B337AF /* LFAlertController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C26899B41C7EE63600A11FA1 /* LFAlertAction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFAlertAction.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C26899B71C7EE63600A11FA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C26899B91C7EE63600A11FA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C26899BE1C7EE63600A11FA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C26899C11C7EE63600A11FA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C26899C31C7EE63600A11FA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C26899C91C7EE64700A11FA1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		C275AD2E1C7EE7DF00D9BCB3 /* LFAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LFAlertController.swift; path = ../../Source/LFAlertController.swift; sourceTree = "<group>"; };
+		C2C1A67C1C7F99C000B337AF /* LFAlertControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFAlertControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C1A67F1C7F99C000B337AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2C1A6811C7F99C000B337AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2C1A6861C7F99C000B337AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2C1A6891C7F99C000B337AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2C1A68B1C7F99C000B337AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2C1A6911C7F9A7C00B337AF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C2C1A6931C7F9A8B00B337AF /* LFAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFAlertController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C26899B11C7EE63600A11FA1 /* Frameworks */ = {
+		C2C1A6791C7F99C000B337AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C26899AB1C7EE63600A11FA1 = {
+		C2C1A6731C7F99C000B337AF = {
 			isa = PBXGroup;
 			children = (
-				C26899B61C7EE63600A11FA1 /* LFAlertAction */,
-				C26899B51C7EE63600A11FA1 /* Products */,
+				C2C1A67E1C7F99C000B337AF /* LFAlertControllerExample */,
+				C2C1A67D1C7F99C000B337AF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C26899B51C7EE63600A11FA1 /* Products */ = {
+		C2C1A67D1C7F99C000B337AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C26899B41C7EE63600A11FA1 /* LFAlertAction.app */,
+				C2C1A67C1C7F99C000B337AF /* LFAlertControllerExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C26899B61C7EE63600A11FA1 /* LFAlertAction */ = {
+		C2C1A67E1C7F99C000B337AF /* LFAlertControllerExample */ = {
 			isa = PBXGroup;
 			children = (
-				C275AD2E1C7EE7DF00D9BCB3 /* LFAlertController.swift */,
-				C26899B71C7EE63600A11FA1 /* AppDelegate.swift */,
-				C26899B91C7EE63600A11FA1 /* ViewController.swift */,
-				C26899C91C7EE64700A11FA1 /* Main.storyboard */,
-				C26899BE1C7EE63600A11FA1 /* Assets.xcassets */,
-				C26899C01C7EE63600A11FA1 /* LaunchScreen.storyboard */,
-				C26899C31C7EE63600A11FA1 /* Info.plist */,
+				C2C1A6931C7F9A8B00B337AF /* LFAlertController.swift */,
+				C2C1A67F1C7F99C000B337AF /* AppDelegate.swift */,
+				C2C1A6811C7F99C000B337AF /* ViewController.swift */,
+				C2C1A6911C7F9A7C00B337AF /* Main.storyboard */,
+				C2C1A6861C7F99C000B337AF /* Assets.xcassets */,
+				C2C1A6881C7F99C000B337AF /* LaunchScreen.storyboard */,
+				C2C1A68B1C7F99C000B337AF /* Info.plist */,
 			);
-			path = LFAlertAction;
+			path = LFAlertControllerExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C26899B31C7EE63600A11FA1 /* LFAlertAction */ = {
+		C2C1A67B1C7F99C000B337AF /* LFAlertControllerExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C26899C61C7EE63600A11FA1 /* Build configuration list for PBXNativeTarget "LFAlertAction" */;
+			buildConfigurationList = C2C1A68E1C7F99C000B337AF /* Build configuration list for PBXNativeTarget "LFAlertControllerExample" */;
 			buildPhases = (
-				C26899B01C7EE63600A11FA1 /* Sources */,
-				C26899B11C7EE63600A11FA1 /* Frameworks */,
-				C26899B21C7EE63600A11FA1 /* Resources */,
+				C2C1A6781C7F99C000B337AF /* Sources */,
+				C2C1A6791C7F99C000B337AF /* Frameworks */,
+				C2C1A67A1C7F99C000B337AF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LFAlertAction;
-			productName = LFAlertAction;
-			productReference = C26899B41C7EE63600A11FA1 /* LFAlertAction.app */;
+			name = LFAlertControllerExample;
+			productName = LFAlertControllerExample;
+			productReference = C2C1A67C1C7F99C000B337AF /* LFAlertControllerExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C26899AC1C7EE63600A11FA1 /* Project object */ = {
+		C2C1A6741C7F99C000B337AF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Lucas Farah";
 				TargetAttributes = {
-					C26899B31C7EE63600A11FA1 = {
+					C2C1A67B1C7F99C000B337AF = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
 			};
-			buildConfigurationList = C26899AF1C7EE63600A11FA1 /* Build configuration list for PBXProject "LFAlertAction" */;
+			buildConfigurationList = C2C1A6771C7F99C000B337AF /* Build configuration list for PBXProject "LFAlertControllerExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -110,47 +110,47 @@
 				en,
 				Base,
 			);
-			mainGroup = C26899AB1C7EE63600A11FA1;
-			productRefGroup = C26899B51C7EE63600A11FA1 /* Products */;
+			mainGroup = C2C1A6731C7F99C000B337AF;
+			productRefGroup = C2C1A67D1C7F99C000B337AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C26899B31C7EE63600A11FA1 /* LFAlertAction */,
+				C2C1A67B1C7F99C000B337AF /* LFAlertControllerExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C26899B21C7EE63600A11FA1 /* Resources */ = {
+		C2C1A67A1C7F99C000B337AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C26899C21C7EE63600A11FA1 /* LaunchScreen.storyboard in Resources */,
-				C26899BF1C7EE63600A11FA1 /* Assets.xcassets in Resources */,
-				C26899CA1C7EE64700A11FA1 /* Main.storyboard in Resources */,
+				C2C1A68A1C7F99C000B337AF /* LaunchScreen.storyboard in Resources */,
+				C2C1A6871C7F99C000B337AF /* Assets.xcassets in Resources */,
+				C2C1A6921C7F9A7C00B337AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C26899B01C7EE63600A11FA1 /* Sources */ = {
+		C2C1A6781C7F99C000B337AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C26899BA1C7EE63600A11FA1 /* ViewController.swift in Sources */,
-				C275AD2F1C7EE7DF00D9BCB3 /* LFAlertController.swift in Sources */,
-				C26899B81C7EE63600A11FA1 /* AppDelegate.swift in Sources */,
+				C2C1A6821C7F99C000B337AF /* ViewController.swift in Sources */,
+				C2C1A6801C7F99C000B337AF /* AppDelegate.swift in Sources */,
+				C2C1A6941C7F9A8B00B337AF /* LFAlertController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C26899C01C7EE63600A11FA1 /* LaunchScreen.storyboard */ = {
+		C2C1A6881C7F99C000B337AF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C26899C11C7EE63600A11FA1 /* Base */,
+				C2C1A6891C7F99C000B337AF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -158,7 +158,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C26899C41C7EE63600A11FA1 /* Debug */ = {
+		C2C1A68C1C7F99C000B337AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -202,7 +202,7 @@
 			};
 			name = Debug;
 		};
-		C26899C51C7EE63600A11FA1 /* Release */ = {
+		C2C1A68D1C7F99C000B337AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -239,24 +239,24 @@
 			};
 			name = Release;
 		};
-		C26899C71C7EE63600A11FA1 /* Debug */ = {
+		C2C1A68F1C7F99C000B337AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LFAlertAction/Info.plist;
+				INFOPLIST_FILE = LFAlertControllerExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.LFAlertAction;
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.LFAlertControllerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		C26899C81C7EE63600A11FA1 /* Release */ = {
+		C2C1A6901C7F99C000B337AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LFAlertAction/Info.plist;
+				INFOPLIST_FILE = LFAlertControllerExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.LFAlertAction;
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.LFAlertControllerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -264,25 +264,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C26899AF1C7EE63600A11FA1 /* Build configuration list for PBXProject "LFAlertAction" */ = {
+		C2C1A6771C7F99C000B337AF /* Build configuration list for PBXProject "LFAlertControllerExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C26899C41C7EE63600A11FA1 /* Debug */,
-				C26899C51C7EE63600A11FA1 /* Release */,
+				C2C1A68C1C7F99C000B337AF /* Debug */,
+				C2C1A68D1C7F99C000B337AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C26899C61C7EE63600A11FA1 /* Build configuration list for PBXNativeTarget "LFAlertAction" */ = {
+		C2C1A68E1C7F99C000B337AF /* Build configuration list for PBXNativeTarget "LFAlertControllerExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C26899C71C7EE63600A11FA1 /* Debug */,
-				C26899C81C7EE63600A11FA1 /* Release */,
+				C2C1A68F1C7F99C000B337AF /* Debug */,
+				C2C1A6901C7F99C000B337AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C26899AC1C7EE63600A11FA1 /* Project object */;
+	rootObject = C2C1A6741C7F99C000B337AF /* Project object */;
 }

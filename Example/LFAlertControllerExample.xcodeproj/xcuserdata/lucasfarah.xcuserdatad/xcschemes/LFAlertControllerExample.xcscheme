@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C26899B31C7EE63600A11FA1"
-               BuildableName = "LFAlertAction.app"
-               BlueprintName = "LFAlertAction"
-               ReferencedContainer = "container:LFAlertAction.xcodeproj">
+               BlueprintIdentifier = "C2C1A67B1C7F99C000B337AF"
+               BuildableName = "LFAlertControllerExample.app"
+               BlueprintName = "LFAlertControllerExample"
+               ReferencedContainer = "container:LFAlertControllerExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C26899B31C7EE63600A11FA1"
-            BuildableName = "LFAlertAction.app"
-            BlueprintName = "LFAlertAction"
-            ReferencedContainer = "container:LFAlertAction.xcodeproj">
+            BlueprintIdentifier = "C2C1A67B1C7F99C000B337AF"
+            BuildableName = "LFAlertControllerExample.app"
+            BlueprintName = "LFAlertControllerExample"
+            ReferencedContainer = "container:LFAlertControllerExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C26899B31C7EE63600A11FA1"
-            BuildableName = "LFAlertAction.app"
-            BlueprintName = "LFAlertAction"
-            ReferencedContainer = "container:LFAlertAction.xcodeproj">
+            BlueprintIdentifier = "C2C1A67B1C7F99C000B337AF"
+            BuildableName = "LFAlertControllerExample.app"
+            BlueprintName = "LFAlertControllerExample"
+            ReferencedContainer = "container:LFAlertControllerExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C26899B31C7EE63600A11FA1"
-            BuildableName = "LFAlertAction.app"
-            BlueprintName = "LFAlertAction"
-            ReferencedContainer = "container:LFAlertAction.xcodeproj">
+            BlueprintIdentifier = "C2C1A67B1C7F99C000B337AF"
+            BuildableName = "LFAlertControllerExample.app"
+            BlueprintName = "LFAlertControllerExample"
+            ReferencedContainer = "container:LFAlertControllerExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
