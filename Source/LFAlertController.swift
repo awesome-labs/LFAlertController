@@ -14,8 +14,8 @@ extension UIAlertController {
     UIApplication.sharedApplication().keyWindow?.rootViewController?.presentViewController(self, animated: true, completion: nil)
   }
   
-  //EZSE: Simple UIAlertController with actions and handler
-  @nonobjc convenience init(title: String, message: String, preferredStyle: UIAlertControllerStyle, actions: [UIAlertAction],handler: (action:UIAlertAction,index:Int) -> ())
+  /// LFAlertController: Simple UIAlertController with actions and handler
+  @nonobjc convenience init(title: String, message: String, preferredStyle: UIAlertControllerStyle, actions: [UIAlertAction], handler: (action:UIAlertAction,index:Int) -> ())
   {
     self.init(title: title, message: message, preferredStyle: preferredStyle)
     
@@ -31,6 +31,17 @@ extension UIAlertController {
       {
         handler(action: self.actions[index as! Int], index: index as! Int)
       }
+    }
+  }
+  
+  /// LFAlertController: Simple UIAlertController with actions
+  @nonobjc convenience init(title: String, message: String, preferredStyle: UIAlertControllerStyle, actions: [UIAlertAction])
+  {
+    self.init(title: title, message: message, preferredStyle: preferredStyle)
+    
+    for action in actions
+    {
+      self.addAction(action)
     }
   }
   
@@ -56,11 +67,16 @@ extension UIAlertController {
   
 }
 
-
-
 extension UIAlertAction {
-  //EZSE: Creates UIAlertAction with NSNotification
-  convenience init(title: String,style: UIAlertActionStyle,controller:UIAlertController) {
+  
+  /// LFAlertController: UIAlertAction initialization without handler
+  convenience init(title: String,style: UIAlertActionStyle) {
+    self.init(title: title, style: .Default) { (action) -> Void in
+    }
+  }
+  
+  /// LFAlertController: private UIAlertAction initialization with controller
+  private convenience init(title: String,style: UIAlertActionStyle,controller:UIAlertController) {
     self.init(title: title, style: .Default) { (action) -> Void in
       let notification = NSNotification(name: "NotificationIdentifier", object: controller.indexOfActionForTitle(title))
       NSNotificationCenter.defaultCenter().postNotification(notification)
