@@ -1,6 +1,8 @@
 # LFAlertController
 UIAlertController Swift extension with handler inside initialization :large_orange_diamond:
 
+Why? Because _UIAlertController_ has handlers inside each action, forcing the developers to have **duplicated code**. Instead, we can have a _switch_ inside a global handler that is called when any action inside the UIAlertController is called
+
 ## How to install
 
 #### Using the Swift file:
