@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 s.name             = "LFAlertController"
 s.version          = "0.1"
-s.summary          = "UIAlertController Swift extension with handler inside initialization :large_orange_diamond:"
+s.summary          = "UIAlertController with global handler :large_orange_diamond:"
 s.description      = "UIAlertController Swift extension with handler inside initialization :large_orange_diamond:"
 s.homepage         = "https://github.com/lfarah/LFAlertController"
 s.license          = 'MIT'
