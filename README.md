@@ -9,7 +9,10 @@ Why? Because _UIAlertController_ has handlers inside each action, forcing the de
 Drag the **LFAlertController.swift** from */Sources* to your project
 
 #### Using CocoaPods:
-Not available yet!
+Don't forget to add **use_frameworks!** at the top of your Podfile
+``` ruby
+pod 'LFAlertController'
+```
 
 ## How to Use
 
