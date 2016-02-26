@@ -10,12 +10,12 @@ import UIKit
 extension UIAlertController {
   
   /// EZSE: easy way to present UIAlertController
-  func show(){
+  public func show(){
     UIApplication.sharedApplication().keyWindow?.rootViewController?.presentViewController(self, animated: true, completion: nil)
   }
   
   /// LFAlertController: Simple UIAlertController with actions and handler
-  @nonobjc convenience init(title: String, message: String, preferredStyle: UIAlertControllerStyle, actions: [UIAlertAction], handler: (action:UIAlertAction,index:Int) -> ())
+  @nonobjc public convenience init(title: String, message: String, preferredStyle: UIAlertControllerStyle, actions: [UIAlertAction], handler: (action:UIAlertAction,index:Int) -> ())
   {
     self.init(title: title, message: message, preferredStyle: preferredStyle)
     
@@ -35,7 +35,7 @@ extension UIAlertController {
   }
   
   /// LFAlertController: Simple UIAlertController with actions
-  @nonobjc convenience init(title: String, message: String, preferredStyle: UIAlertControllerStyle, actions: [UIAlertAction])
+  @nonobjc public convenience init(title: String, message: String, preferredStyle: UIAlertControllerStyle, actions: [UIAlertAction])
   {
     self.init(title: title, message: message, preferredStyle: preferredStyle)
     
@@ -46,7 +46,7 @@ extension UIAlertController {
   }
   
   //EZSE: Returns the index of UIAlertViewController's action from title
-  func indexOfActionForTitle(title:String) -> Int
+  public func indexOfActionForTitle(title:String) -> Int
   {
     for action in self.actions
     {
@@ -58,8 +58,8 @@ extension UIAlertController {
     return 99
   }
   
-  //EZSE: Appends UIAlertAction with NSNotification
-  func appendAction(action:UIAlertAction)
+  //LFAlertController: Appends UIAlertAction with NSNotification
+  public func appendAction(action:UIAlertAction)
   {
     let act = UIAlertAction(title: action.title!, style: action.style, controller: self)
     self.addAction(act)
@@ -70,7 +70,8 @@ extension UIAlertController {
 extension UIAlertAction {
   
   /// LFAlertController: UIAlertAction initialization without handler
-  convenience init(title: String,style: UIAlertActionStyle) {
+  public convenience init(title: String,style: UIAlertActionStyle)
+  {
     self.init(title: title, style: .Default) { (action) -> Void in
     }
   }
