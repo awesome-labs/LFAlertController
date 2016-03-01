@@ -1,3 +1,8 @@
+[![Version](https://img.shields.io/cocoapods/v/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
+[![License](https://img.shields.io/cocoapods/l/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
+[![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
+[![Language](https://img.shields.io/badge/swift-2.1-orange.svg)](http://swift.org)
+
 # LFAlertController
 UIAlertController Swift extension with handler inside initialization :large_orange_diamond:
 
