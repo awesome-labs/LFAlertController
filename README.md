@@ -23,11 +23,6 @@ pod 'LFAlertController'
 
 #### Initializing UIAlertActions
 
-UIAlertAction with handler
-``` swift
-let action0 = UIAlertAction(title: "First Action", style: .Default, handler: nil)
-```
-UIAlertAction without handler
 ``` swift
 let action1 = UIAlertAction(title: "Second Action", style: .Default)
 ```
@@ -43,13 +38,18 @@ self.controller = UIAlertController(title: "hey", message: "ho", preferredStyle:
 }
 ```
 
-UIAlertController without Handler
-``` swift
-self.controller = UIAlertController(title: "hey", message: "ho", preferredStyle: .Alert, actions: [action0,action1])
-```
-
 ##### Show UIAlertController
 ``` swift
 self.controller.show()
 ```
 
+#### Other options
+
+UIAlertAction with handler
+``` swift
+let action0 = UIAlertAction(title: "First Action", style: .Default, handler: nil)
+```
+UIAlertController without Handler
+``` swift
+self.controller = UIAlertController(title: "hey", message: "ho", preferredStyle: .Alert, actions: [action0,action1])
+```
