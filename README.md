@@ -43,7 +43,7 @@ self.controller = UIAlertController(title: "hey", message: "ho", preferredStyle:
 self.controller.show()
 ```
 
-#### Other options
+## Other options
 
 UIAlertAction with handler
 ``` swift
