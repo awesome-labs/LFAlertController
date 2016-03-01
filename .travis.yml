@@ -1,1 +1,20 @@
+# references:
+# * http://www.objc.io/issue-6/travis-ci.html
+# * https://github.com/supermarin/xcpretty#usage
+# * https://github.com/Azuritul/AZExpandableIconListView/blob/master/.travis.yml
+
+rvm: 2.2.2
 language: swift
+osx_image: xcode7.2
+
+# cache: cocoapods
+# podfile: Example/Podfile
+podfile: Example/Podfile
+before_install:
+ - gem install xcpretty
+ - gem install cocoapods  -v '0.39.0' # Since Travis is not always on latest version
+ - pod install --project-directory=Example
+
+script:
+- set -o pipefail && xcodebuild test -workspace Example/AZExpandableIconListView.xcworkspace -scheme AZExpandableIconListView-Example -destination 'platform=iOS Simulator,name=iPhone 6,OS=8.4' ONLY_ACTIVE_ARCH=NO | xcpretty
+- pod lib lint
