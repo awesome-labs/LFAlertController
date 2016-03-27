@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DFFFC711CA818780070F5E9 /* LFAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFFFC701CA818780070F5E9 /* LFAlertController.swift */; };
 		C2C1A6801C7F99C000B337AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C1A67F1C7F99C000B337AF /* AppDelegate.swift */; };
 		C2C1A6821C7F99C000B337AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C1A6811C7F99C000B337AF /* ViewController.swift */; };
 		C2C1A6871C7F99C000B337AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C1A6861C7F99C000B337AF /* Assets.xcassets */; };
 		C2C1A68A1C7F99C000B337AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C1A6881C7F99C000B337AF /* LaunchScreen.storyboard */; };
 		C2C1A6921C7F9A7C00B337AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C1A6911C7F9A7C00B337AF /* Main.storyboard */; };
-		C2C1A6941C7F9A8B00B337AF /* LFAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C1A6931C7F9A8B00B337AF /* LFAlertController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DFFFC701CA818780070F5E9 /* LFAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LFAlertController.swift; path = ../../Source/LFAlertController.swift; sourceTree = "<group>"; };
 		C2C1A67C1C7F99C000B337AF /* LFAlertControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFAlertControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C1A67F1C7F99C000B337AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2C1A6811C7F99C000B337AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +24,6 @@
 		C2C1A6891C7F99C000B337AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2C1A68B1C7F99C000B337AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2C1A6911C7F9A7C00B337AF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		C2C1A6931C7F9A8B00B337AF /* LFAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFAlertController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +56,9 @@
 		C2C1A67E1C7F99C000B337AF /* LFAlertControllerExample */ = {
 			isa = PBXGroup;
 			children = (
-				C2C1A6931C7F9A8B00B337AF /* LFAlertController.swift */,
 				C2C1A67F1C7F99C000B337AF /* AppDelegate.swift */,
 				C2C1A6811C7F99C000B337AF /* ViewController.swift */,
+				0DFFFC701CA818780070F5E9 /* LFAlertController.swift */,
 				C2C1A6911C7F9A7C00B337AF /* Main.storyboard */,
 				C2C1A6861C7F99C000B337AF /* Assets.xcassets */,
 				C2C1A6881C7F99C000B337AF /* LaunchScreen.storyboard */,
@@ -140,7 +140,7 @@
 			files = (
 				C2C1A6821C7F99C000B337AF /* ViewController.swift in Sources */,
 				C2C1A6801C7F99C000B337AF /* AppDelegate.swift in Sources */,
-				C2C1A6941C7F9A8B00B337AF /* LFAlertController.swift in Sources */,
+				0DFFFC711CA818780070F5E9 /* LFAlertController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +280,7 @@
 				C2C1A6901C7F99C000B337AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
