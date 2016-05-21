@@ -19,6 +19,11 @@ Don't forget to add **use_frameworks!** at the top of your Podfile
 pod 'LFAlertController'
 ```
 
+#### Using SPM
+```swift
+  .Package(url: "https://github.com/awesome-labs/LFAlertController.git", majorVersion: 0)
+```
+
 ## How to Use
 
 #### Initializing UIAlertActions
@@ -30,9 +35,9 @@ let action1 = UIAlertAction(title: "Second Action", style: .Default)
 #### Initializing UIAlertController
 UIAlertController with Handler
 ``` swift
-self.controller = UIAlertController(title: "hey", message: "ho", preferredStyle: .Alert,actions:[action0,action1]) 
+self.controller = UIAlertController(title: "hey", message: "ho", preferredStyle: .Alert,actions:[action0,action1])
 { (action,index) -> () in
-      
+
   //Printing index of Action
   print("\(index) - \(action.title!)")
 }
