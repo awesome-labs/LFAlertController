@@ -22,7 +22,7 @@ pod 'LFAlertController'
 #### Using SPM
 ```swift
   .Package(url: "https://github.com/awesome-labs/LFAlertController.git", majorVersion: 0)
-`
+```
 
 ## How to Use
 
