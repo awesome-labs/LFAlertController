@@ -7,44 +7,44 @@
 //
 import UIKit
 
-extension UIAlertController {
-
+public extension UIAlertController {
+  
   /// EZSE: easy way to present UIAlertController
   public func show(){
-    UIApplication.sharedApplication().keyWindow?.rootViewController?.presentViewController(self, animated: true, completion: nil)
+    UIApplication.shared.keyWindow?.rootViewController?.present(self, animated: true, completion: nil)
   }
-
+  
   /// LFAlertController: Simple UIAlertController with actions and handler
-  @nonobjc public convenience init(title: String, message: String, preferredStyle: UIAlertControllerStyle, actions: [UIAlertAction], handler: (action:UIAlertAction,index:Int) -> ())
+  @nonobjc public convenience init(title: String, message: String, preferredStyle: UIAlertControllerStyle, actions: [UIAlertAction], handler: @escaping (_ action:UIAlertAction,_ index:Int) -> ())
   {
     self.init(title: title, message: message, preferredStyle: preferredStyle)
-
+    
     for action in actions
     {
       let act = UIAlertAction(title: action.title!, style: action.style, controller: self)
       self.addAction(act)
     }
-
-    NSNotificationCenter.defaultCenter().addObserverForName("NotificationIdentifier", object: nil, queue: nil) { (notification) -> Void in
-
+    
+    NotificationCenter.default.addObserver(forName: Notification.Name(rawValue: "NotificationIdentifier"), object: nil, queue: nil) { (notification) -> Void in
+      
       if let index = notification.object
       {
-        handler(action: self.actions[index as! Int], index: index as! Int)
+        handler(self.actions[index as! Int], index as! Int)
       }
     }
   }
-
+  
   /// LFAlertController: Simple UIAlertController with actions
   @nonobjc public convenience init(title: String, message: String, preferredStyle: UIAlertControllerStyle, actions: [UIAlertAction])
   {
     self.init(title: title, message: message, preferredStyle: preferredStyle)
-
+    
     for action in actions
     {
       self.addAction(action)
     }
   }
-
+  
   //EZSE: Returns the index of UIAlertViewController's action from title
   public func indexOfActionForTitle(title:String) -> Int
   {
@@ -52,35 +52,37 @@ extension UIAlertController {
     {
       if action.title == title
       {
-        return self.actions.indexOf(action)!
+        return self.actions.index(of: action)!
       }
     }
     return 99
   }
-
+  
   //LFAlertController: Appends UIAlertAction with NSNotification
   public func appendAction(action:UIAlertAction)
   {
     let act = UIAlertAction(title: action.title!, style: action.style, controller: self)
     self.addAction(act)
   }
-
+  
 }
 
 extension UIAlertAction {
-
+  
   /// LFAlertController: UIAlertAction initialization without handler
   public convenience init(title: String,style: UIAlertActionStyle)
   {
-    self.init(title: title, style: style) { (action) -> Void in
+    self.init(title: title, style: .default) { (action) -> Void in
     }
   }
-
+  
   /// LFAlertController: private UIAlertAction initialization with controller
-  private convenience init(title: String,style: UIAlertActionStyle,controller:UIAlertController) {
-    self.init(title: title, style: style) { (action) -> Void in
-      let notification = NSNotification(name: "NotificationIdentifier", object: controller.indexOfActionForTitle(title))
-      NSNotificationCenter.defaultCenter().postNotification(notification)
+  internal convenience init(title: String,style: UIAlertActionStyle,controller:UIAlertController) {
+    self.init(title: title, style: .default) { (action) -> Void in
+        
+        
+    let notification = Notification(name: Notification.Name(rawValue: "NotificationIdentifier"), object: controller.indexOfActionForTitle(title: title))
+      NotificationCenter.default.post(notification)
     }
   }
 }
